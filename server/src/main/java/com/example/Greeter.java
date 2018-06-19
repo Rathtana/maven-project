@@ -1,3 +1,4 @@
+
 package com.example;
 
 /**
@@ -12,13 +13,8 @@ public class Greeter {
 		
 	}
 	
-	
-	/**
-	 * @param someone the name of the person
-	 * @return greeting string
-	 */
-	public String greet(final String someone) {
+	//TODO: Add javadoc comment
+	public String greet(String someone) {
 		return String.format("Hello, %s!", someone);
 	}
 }
-
